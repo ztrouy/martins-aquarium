@@ -43,16 +43,16 @@ Class Names
         - fishes__imageContent
 
 Semantic Tags
-- <section> around all fishes
-    - <h2> above all fishes
-    - <section> around each set of fish content
-        - <section> around image content
-        - <section> around all text content
-            - <h3> for name of fish
-            - <ul> around all text content other than name of fish
-                - <li> for each text content other than name of fish
-                - <ul> around text content of food for fish
-                    - <li> for each text content of food for fish
+- <\section> around all fishes
+    - <\h2> above all fishes
+    - <\section> around each set of fish content
+        - <\section> around image content
+        - <\section> around all text content
+            - <\h3> for name of fish
+            - <\ul> around all text content other than name of fish
+                - <\li> for each text content other than name of fish
+                - <\ul> around text content of food for fish
+                    - <\li> for each text content of food for fish
 
 ### Locations
 Class Names
@@ -64,14 +64,14 @@ Class Names
             - locations__listHeader
                 - locations__listContent
 Semantic Tags
-- <section> around all locations
-    - <h2> above all locations
-    - <section> around each set of location content
-        - <section> around image content
-        - <section> around all text content
-            - <h3> for name of location
-            - <ul> around all fish harvested
-                - <li> for each text content of fish harvested
+- <\section> around all locations
+    - <\h2> above all locations
+    - <\section> around each set of location content
+        - <\section> around image content
+        - <\section> around all text content
+            - <\h3> for name of location
+            - <\ul> around all fish harvested
+                - <\li> for each text content of fish harvested
 
 ### Quotes
 Class Names
@@ -80,10 +80,10 @@ Class Names
         - quotes__textContent
         - quotes__name
 Semantic Tags
-- <section> around all quotes
-    - <h2> above all quotes
-    - <section> around each set of quotes content
-        - <p> for all text content 
+- <\section> around all quotes
+    - <\h2> above all quotes
+    - <\section> around each set of quotes content
+        - <\p> for all text content 
 
 ### Aside
 Class Names
@@ -91,9 +91,9 @@ Class Names
     - care__subheader
     - care__textContent
 Semantic Tags
-- <aside> around all care information
-    - <h2> above all care information
-    - <section> around each category of care information
-        - <h3> at top of a category of care information
-        - <ol> around main text content
-            - <li> for main text content
+- <\aside> around all care information
+    - <\h2> above all care information
+    - <\section> around each category of care information
+        - <\h3> at top of a category of care information
+        - <\ol> around main text content
+            - <\li> for main text content
