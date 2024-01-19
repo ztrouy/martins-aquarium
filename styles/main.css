@@ -17,6 +17,11 @@ body {
     width: 75%;
 }
 
+
+
+
+
+
 #tips {
     /* float: right; */
     display: flex;
@@ -50,6 +55,12 @@ body {
     margin-left: -1em;
 }
 
+
+
+
+
+
+
 nav {
     position: sticky;
     width: 100%;
@@ -77,14 +88,15 @@ nav {
     background-color: #007d8e;
 }
 
-/* .nav__element:onclick {
-    color: ;
-} */
-
 .nav__element a {
     text-decoration: none;
     color: white;
 }
+
+
+
+
+
 
 #fish {
     scroll-margin-top: 60px;
@@ -143,4 +155,41 @@ nav {
 
 .fish__length, .fish__location, .fish__diet {
     margin-top: 0.25em;
+}
+
+
+
+
+
+
+#quotes {
+    scroll-margin-top: 60px;
+    box-sizing: border-box;
+}
+
+.quotes__header {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.quotes-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0.5em;
+}
+
+.quotes__item {
+    border-radius: 5px;
+    background-color: white;
+    margin: 2em;
+    padding: 10px;
+    width: 400px;
+    height: 160px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.quotes__title {
+    font-size: 2em;
+    text-align: center;
 }

@@ -5,14 +5,14 @@ export const quotesList = () => {
     const quotes = getQuotes()
     
     // Start building a string of each quote
-    let htmlString = `<article class="quotes-list">
-        <div class="quotes__header">Quotes</div>`
+    let htmlString = `<div class="quotes__header">Quotes</div>
+        <article class="quotes-list">`
 
     // Create HTML representations of each quote here
     for (const quote of quotes) {
         htmlString += `<div class="quotes__item">`
 
-        htmlString += `<div class="quotes__name">${quote.name}</div>`
+        htmlString += `<div class="quotes__title">${quote.name}</div>`
 
         htmlString += `<div class="quotes__text">${quote.quote}</div>`
 
