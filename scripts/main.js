@@ -2,6 +2,7 @@ import { navList } from "./nav/navList.js"
 import { fishList } from "./fish/fishList.js"
 import { tipsList } from "./tips/tipList.js"
 import { quotesList } from "./quotes/quotesList.js"
+import { locationsList } from "./locations/locationsList.js"
 
 const navHTMLElement = document.querySelector("#nav")
 navHTMLElement.innerHTML = navList()
@@ -15,5 +16,5 @@ tipsHTMLElement.innerHTML = tipsList()
 const quotesHTMLElement = document.querySelector("#quotes")
 quotesHTMLElement.innerHTML = quotesList()
 
-// const locationsHTMLElement = document.querySelector("#locations")
-// locationsHTMLElement.innerHTML = locationsList()
+const locationsHTMLElement = document.querySelector("#locations")
+locationsHTMLElement.innerHTML = locationsList()
