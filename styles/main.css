@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+body {
+    /* background-color: #FAFAFA; */
+    background-color: #def3f6;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+}
+
+#main-content {
+    width: 75%;
+}
+
+#tips {
+    /* float: right; */
+    display: flex;
+    max-width: 25%;
+    justify-content: right;
+    font-family: sans-serif;
+}
+
+.tips__header {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.tips__item {
+    border-radius: 5px;
+    background-color: white;
+    margin: 2em;
+    padding: 10px;
+    /* width: 400px;
+    height: 160px; */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.tips__title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.tips__content li {
+    margin-left: -1em;
+}
+
+nav {
+    position: sticky;
+    width: 100%;
+    height: 60px;
+    background-color: #00a0b9;
+    top: 0;
+    box-sizing: border-box;
+    padding-left: 1em;
+}
+
+.nav__bar {
+    height: 60px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.nav__element {
+    padding: 16px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.nav__element:hover {
+    background-color: #007d8e;
+}
+
+/* .nav__element:onclick {
+    color: ;
+} */
+
+.nav__element a {
+    text-decoration: none;
+    color: white;
+}
+
+#fish {
+    scroll-margin-top: 60px;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.fish-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0.5em;
+}
+
+.fish-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    margin: 1em;
+    width: 450px;
+    height: 160px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.fish__image {
+    flex-basis: 45%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 5px; 
+    /* clip-path: inset(10px 0 10px 10px round 5px); */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.fish__text {
+    flex-basis: 45%;
+    vertical-align: top;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.fish__name {
+    font-size: 2em;
+    font-style: bold;
+}
+
+.fish__species {
+    font-style: italic;
+    margin-bottom: 0.25em;
+}
+
+.fish__length, .fish__location, .fish__diet {
+    margin-top: 0.25em;
+}
