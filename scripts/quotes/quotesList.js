@@ -1,4 +1,4 @@
-import { getQuotes } from "../database";
+import { getQuotes } from "../database.js";
 
 export const quotesList = () => {
     // Invoke the imported function to get array of quote objects
