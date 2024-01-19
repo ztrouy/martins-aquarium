@@ -15,5 +15,5 @@ tipsHTMLElement.innerHTML = tipsList()
 const quotesHTMLElement = document.querySelector("#quotes")
 quotesHTMLElement.innerHTML = quotesList()
 
-// const locationsHTMLElement = document.querySelector("#locations")
-// locationsHTMLElement.innerHTML = locationsList()
+const locationsHTMLElement = document.querySelector("#locations")
+locationsHTMLElement.innerHTML = locationsList()
